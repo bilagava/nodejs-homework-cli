@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-homework-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilagava/nodejs-homework-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilagava/nodejs-homework-cli/issues"
+  },
+  "homepage": "https://github.com/bilagava/nodejs-homework-cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "uuid": "^9.0.0"
+  }
+}
